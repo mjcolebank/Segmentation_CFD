@@ -1,0 +1,3 @@
+vmtkcenterlines -ifile /Users/mjcoleba/Desktop/NewNetworks/M1P4_lower36_smooth4.1.vtp -ofile /Users/mjcoleba/Desktop/NewNetworks/M1P4_lower36_smooth4.1_cl.vtp -endpoints 1
+
+vmtkbranchextractor -ifile /Users/mjcoleba/Desktop/NewNetworks/M1P4_lower36_smooth4.1_cl.vtp -radiusarray@ MaximumInscribedSphereRadius --pipe vmtkbifurcationreferencesystems --pipe vmtkbifurcationvectors -ofile /Users/mjcoleba/Desktop/NewNetworks/M1P4_lower36_smooth4.1_bv.vtp
